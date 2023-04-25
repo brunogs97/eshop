@@ -3,7 +3,7 @@
 > 💻 Site  
 
 
-[Clique aqui para acessar](https://e-shop-sigma-eight.vercel.app/)
+[Clique aqui para acessar](https://eshop-vert-chi.vercel.app/)
 
 
 
