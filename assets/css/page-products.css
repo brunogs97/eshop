@@ -1,0 +1,201 @@
+.conteudo {
+    width: 60%;
+    margin: 2em auto;
+    height: 50%;
+}
+
+.destaques-loja {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.departamento {
+    width: 50%;
+    margin: .5em auto 0 auto;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.icone-assunto-livro {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(250, 250, 63);
+    color: var(--black);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo {
+    color: var(--dark-grey);
+    font-size: 14px;
+    margin-top: .8em;
+}
+
+.foto-conteudo-eletronico {
+    width: 200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+.swiper {
+    border-top: 1px solid var(--black);
+    padding-top: .5em;
+    margin-top: .8em;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.marca-produto {
+    color: var(--dark-grey);
+    margin: 8px 0;
+}
+
+.valor-produto {
+    font-weight: 700;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--dark-grey);
+}
+
+/*carrinho de compras*/
+.carrinho-compras {
+    width: 50%;
+    margin: 2em auto;
+    border: 1px solid var(--dark-grey);
+    border-radius: .45rem;
+    padding: 1em;
+    text-align: center;
+}
+
+table {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid;
+}
+
+td {
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.titulo-cabecalho {
+    font-size: 15px;
+    color: var(--dark-grey);
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+.nome-item {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.quantidade {
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.valor-item,
+.valor-total-item {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.btn-remove {
+    background: var(--orange);
+    padding: 8px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+    .conteudo {
+        width: 90%;
+        margin: 1em auto;
+        height: 50%;
+    }
+
+    .carrinho-compras {
+        box-sizing: border-box;
+    }
+
+    .swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+    .carrinho-compras {
+        width: 98vw;
+        margin: 2em auto;
+        border: 1px solid var(--dark-grey);
+        border-radius: .45rem;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    #checkboxType {
+        display: none;
+    }
+
+    .titulo-item {
+        display: none;
+    }
+
+    td img {
+        display: none;
+    }
+
+    .destaques-loja {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .departamento {
+        width: 80%;
+        margin: 1em auto;
+        font-size: 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .icone-assunto-livro {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(250, 250, 63);
+        color: var(--black);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

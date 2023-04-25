@@ -1,0 +1,45 @@
+.conteudo-principal {
+    width: 60%;
+    margin: 1em auto;
+    border-radius: 15px;
+    padding-left: 2em;
+}
+
+.conteudo-principal ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.conteudo-principal ul a {
+    text-decoration: none;
+    color: var(--light-grey);
+    font-weight: 600;
+}
+
+.conteudo-principal ul a:hover {
+    color: var(--red);
+}
+
+@media (max-width: 500px) {
+    .conteudo-principal {
+        width: 100vw;
+        margin: 1em auto;
+        border-radius: 15px;
+        padding: .5em;
+    }
+
+    .conteudo-principal ul {
+        width: 100vw;
+        justify-content: space-around;
+    }
+
+    .conteudo-principal ul a {
+        text-decoration: none;
+        color: var(--light-grey);
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

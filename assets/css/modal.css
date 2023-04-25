@@ -1,0 +1,91 @@
+/*evento irá funcionar quando a opacidade estiver em 1*/
+#modal, #fade {
+    transition: .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#open-modal {
+    background-color: var(--red);
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    margin: 10px auto;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /*centralizar um position: fixed*/
+    background-color: #fff;
+    z-index: 10;
+    width: 500px;
+    max-width: 90%;
+    padding: 1.5rem;
+    border-radius: .25rem;
+}
+
+.header-modal {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+#close-modal {
+    padding: .6rem 1.2rem;
+    background-color: #888;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+    opacity: .8;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.modal-body p {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.fa-circle-check {
+    color: rgb(27, 196, 140);
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+/*com opacidade consegue controlar a transição do elemento*/
+#fade.hide,
+#modal.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modal.hide {
+    top: 0;
+}
