@@ -4,6 +4,19 @@
     height: 50%;
 }
 
+.marcas-produto {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-marca-roupa {
+    width: 200px;
+    height: 200px;
+}
+
 .destaques-loja {
     text-align: center;
     width: 60%;
@@ -197,5 +210,14 @@ td {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .marcas-produto {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
