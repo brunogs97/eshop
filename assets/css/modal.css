@@ -89,3 +89,8 @@
 #modal.hide {
     top: 0;
 }
+
+#data-hora {
+    font-size: 12px;
+    font-weight: 400;
+}

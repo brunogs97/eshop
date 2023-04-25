@@ -3,7 +3,8 @@ const openModalButton = document.querySelector('#open-modal')
 const closeModalButton = document.querySelector('#close-modal')
 const modal = document.querySelector('#modal')
 const fade = document.querySelector('#fade')
-
+const data = new Date()
+const boxDataHora = document.querySelector('#data-hora')
 
 function botaoAlternar() {
     const itemAlternar = this.getAttribute('aria-expanded')
@@ -29,3 +30,5 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((el) => {
     el.addEventListener('click', () => toggleModal())
 })
+
+boxDataHora.append(data)
