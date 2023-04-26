@@ -1,4 +1,4 @@
-let botaoAddCarrinho = document.querySelectorAll('#btn-comprar')
+let botaoAddCarrinho = document.querySelectorAll('#btn-add-cart')
 let conteudoCarrinho = document.getElementsByTagName('tbody')[0]
 let campoQTD = document.getElementsByClassName('quantidade')
 let btnRemover = document.getElementsByClassName('btn-remove')

@@ -133,18 +133,6 @@ td {
     color: var(--black);
 }
 
-.btn-remove {
-    background: var(--orange);
-    padding: 8px;
-    color: var(--white);
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    border-radius: .25rem;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
 @media (max-width: 500px) {
     .conteudo {
         width: 90%;

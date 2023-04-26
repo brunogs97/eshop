@@ -1,13 +1,3 @@
-#conteudo-produtos {
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-}
-
-#conteudo-produtos h2 {
-    text-align: center;
-}
-
 .categorias {
     display: flex;
     justify-content: space-between;

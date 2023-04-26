@@ -4,11 +4,6 @@
     width: 48rem;
 }
 
-.conteiner-perguntas h2 {
-    text-align: center;
-    margin-bottom: .8em;
-}
-
 .accordion,
 .accordion-item {
     border-bottom: 1px solid var(--dark-grey);

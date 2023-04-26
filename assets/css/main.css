@@ -1,8 +1,11 @@
 .conteudo-principal {
     width: 60%;
     margin: 1em auto;
-    border-radius: 15px;
-    padding-left: 2em;
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: .8em;
 }
 
 .conteudo-principal ul {

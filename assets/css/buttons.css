@@ -1,0 +1,30 @@
+#btn-add-cart {
+    width: 180px;
+    padding: 6px 0;
+    border: none;
+    border-radius: .15rem;
+    margin-top: .5em;
+    cursor: pointer;
+    background-color: var(--red);
+    opacity: .8;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#btn-add-cart:hover {
+    opacity: 1;
+}
+
+.btn-remove {
+    background: var(--orange);
+    padding: 8px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin-left: 10px;
+}

@@ -10,6 +10,7 @@
 @import url('products.css');
 @import url('modal.css');
 @import url('contact.css');
+@import url('buttons.css');
 
 :root {
     --font: 'Open Sans', sans-serif;

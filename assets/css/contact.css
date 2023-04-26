@@ -1,6 +1,4 @@
 .container-contato {
-    width: 60%;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -29,6 +27,10 @@
     width: 80%;
     margin: 1em 0;
     cursor: pointer;
+}
+
+.localizacao ul {
+    display: block;
 }
 
 .localizacao li {
