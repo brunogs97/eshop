@@ -1,0 +1,60 @@
+.card {
+    width: 230px;
+    padding: 10px;
+    text-align: center;
+    margin: 2em 0;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+.card img {
+    height: 200px;
+}
+
+.nome-produto {
+    margin: 2em 0 .5em 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.marca-produto {
+    color: var(--dark-grey);
+    margin: 8px 0;
+}
+
+.valor-produto {
+    font-weight: 700;
+}
+
+/*Cards Caroussel*/
+.swiper {
+    border-top: 1px solid var(--black);
+    padding-top: .5em;
+    margin-top: .8em;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--dark-grey);
+}
+
+
+@media (max-width: 500px) {
+    .swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+}

@@ -11,6 +11,8 @@
 @import url('modal.css');
 @import url('contact.css');
 @import url('buttons.css');
+@import url('cards.css');
+@import url('shopping-cart.css');
 
 :root {
     --font: 'Open Sans', sans-serif;
