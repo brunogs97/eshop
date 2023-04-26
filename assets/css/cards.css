@@ -1,3 +1,9 @@
+.cards-produtos-destaque {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
 .card {
     width: 230px;
     padding: 10px;
@@ -48,6 +54,13 @@
 
 
 @media (max-width: 500px) {
+    .cards-produtos-destaque {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .swiper {
         width: 100%;
         margin: 0 auto;
